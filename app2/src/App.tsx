@@ -1,12 +1,12 @@
 import * as React from "react";
 
-import LocalButton from "./components/Button";
+import { Button as LocalButton} from "./components/Button";
 
 const App = () => (
   <div>
     <h1>Typescript</h1>
     <h2>App 2</h2>
-    <LocalButton />
+    <LocalButton label="Teste" />
   </div>
 );
 

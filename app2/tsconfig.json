@@ -6,10 +6,12 @@
     "module": "AMD",
     "outDir": "dist/declarations",
     "emitDeclarationOnly": true,
+    "moduleResolution": "Node",
     "skipLibCheck": true,
     "outFile": "dist/declarations/index.d.ts",
-    "jsx": "react"
+    "jsx": "react",
+    "baseUrl": "./src"
   },
   "include": ["src/**/*"],
-  "exclude": ["dist"]
+  "exclude": ["dist", "**/stories/**/*", "./storybook"]
 }
