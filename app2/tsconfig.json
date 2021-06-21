@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "sourceMap": false,
+    "declaration": true,
+    "strict": true,
+    "module": "AMD",
+    "outDir": "dist/declarations",
+    "emitDeclarationOnly": true,
+    "outFile": "dist/declarations/index.d.ts",
+    // "noEmit": true,
+    "jsx": "react"
+  },
+  "include": ["src/**/*"],
+  "exclude": ["dist"]
+}
