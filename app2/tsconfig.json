@@ -6,8 +6,8 @@
     "module": "AMD",
     "outDir": "dist/declarations",
     "emitDeclarationOnly": true,
+    "skipLibCheck": true,
     "outFile": "dist/declarations/index.d.ts",
-    // "noEmit": true,
     "jsx": "react"
   },
   "include": ["src/**/*"],

@@ -21,7 +21,8 @@
     "start": "webpack-cli serve",
     "build": "webpack --mode production",
     "serve": "serve dist -p 3002",
-    "clean": "rm -rf dist"
+    "clean": "rm -rf dist",
+    "generate-declarations": "tsc --p ."
   },
   "dependencies": {
     "react": "^16.13.0",
