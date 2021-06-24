@@ -41,7 +41,7 @@ module.exports = {
       remotes: {
         app2: "app2@http://localhost:3002/remoteEntry.js",
       },
-      shared: ["react", "react-dom"],
+      shared: ["react", "react-dom", "@material-ui/core"],
     }),
     new HtmlWebpackPlugin({
       template: "./public/index.html",
