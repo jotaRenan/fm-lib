@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "strict": true,
+    "jsx": "react",
+    "baseUrl": "src",
+    "paths": {
+      "app-22/components/*": ["../../../src/components/*"]
+    }
+  },
+  "include": ["src/**/*"],
+}

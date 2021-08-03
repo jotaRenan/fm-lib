@@ -4,11 +4,11 @@
     "declaration": true,
     "strict": true,
     "module": "AMD",
-    "outDir": "dist/declarations",
+    "outDir": "declarations",
+    "outFile": "declarations/app2.d.ts",
     "emitDeclarationOnly": true,
     "moduleResolution": "Node",
     "skipLibCheck": true,
-    "outFile": "dist/declarations/index.d.ts",
     "jsx": "react",
     "baseUrl": "./src"
   },

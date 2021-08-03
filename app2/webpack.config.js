@@ -37,11 +37,10 @@ module.exports = {
   },
   plugins: [
     new ModuleFederationPlugin({
-      name: "app2",
+      name: "app_22",
       filename: "remoteEntry.js",
       exposes: {
-        "./Button": "./src/components/Button",
-        "./Components": "./src/federated/components",
+        "./components/Button": "./src/components/Button",
       },
       shared: ["react", "react-dom"],
     }),

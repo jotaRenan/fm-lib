@@ -13,7 +13,7 @@ export interface ButtonProps {
   /**
    * How large should the button be?
    */
-  size?: 'small' | 'medium' | 'large';
+  size?: 'tiny' | 'medium' | 'large' | 'humongous';
   /**
    * Button contents
    */
@@ -42,7 +42,7 @@ export const Button: React.FC<ButtonProps> = ({
       style={{ backgroundColor }}
       {...props}
     >
-      {label + 'oi'}
+      {label + ' tchau'}
     </button>
   );
 };
